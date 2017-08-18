@@ -19,11 +19,15 @@ class ConfigProvider
         ];
     }
 
+    /**
+     * @return array
+     */
     public function getViewHelperConfig()
     {
         return [
             'aliases' => [
                 'octicon' => View\Helper\Octicon::class,
+                'Octicon' => View\Helper\Octicon::class,
             ],
             'factories' => [
                 View\Helper\Octicon::class => InvokableFactory::class,

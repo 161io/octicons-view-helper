@@ -52,6 +52,7 @@ class Octicon extends AbstractHelper
         $svg .= '>';
         $svg .= $icon['path'];
         $svg .= '</svg>';
+
         return $svg;
     }
 
@@ -65,6 +66,7 @@ class Octicon extends AbstractHelper
         $msg .=   'Octicon &quot;' . htmlspecialchars($name) . '&quot; was not found ';
         $msg .=   '<a href="https://octicons.github.com" target="_blank">(help)</a>';
         $msg .= '</strong>';
+
         return $msg;
     }
 
