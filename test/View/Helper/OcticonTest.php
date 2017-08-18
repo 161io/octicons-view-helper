@@ -39,18 +39,18 @@ class OcticonTest extends TestCase
     public function testHelperPluginManagerReturnsOcticonByClassNameHelper()
     {
         $helpers = $this->getHelperPluginManager();
-        $asset = $helpers->get(Octicon::class);
-        $this->assertInstanceOf(Octicon::class, $asset);
+        $octicon = $helpers->get(Octicon::class);
+        $this->assertInstanceOf(Octicon::class, $octicon);
     }
 
     public function testHelperPluginManagerReturnsOcticonHelper()
     {
         $helpers = $this->getHelperPluginManager();
-        $asset = $helpers->get('octicon');
-        $this->assertInstanceOf(Octicon::class, $asset);
+        $octicon = $helpers->get('octicon');
+        $this->assertInstanceOf(Octicon::class, $octicon);
 
-        $asset = $helpers->get('Octicon');
-        $this->assertInstanceOf(Octicon::class, $asset);
+        $octicon = $helpers->get('Octicon');
+        $this->assertInstanceOf(Octicon::class, $octicon);
     }
 
     protected function getHelperPluginManager(array $config = [])
