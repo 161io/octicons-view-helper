@@ -1,5 +1,6 @@
 {
     "name": "zf-octicons-view-helper",
+    "description": "Use Octicons with Zend\\View: echo $this->octicon('mark-github')",
     "version": "1.0.0",
     "license": "MIT",
     "dependencies": {

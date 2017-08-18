@@ -1,5 +1,6 @@
 {
     "name": "161/zf-octicons-view-helper",
+    "description": "Use Octicons with Zend\\View: echo $this->octicon('mark-github')",
     "license": "MIT",
     "keywords": [
         "zf",
@@ -7,7 +8,7 @@
         "octicons",
         "svg"
     ],
-    "homepage": "https://github.com/161/octicons-view-helper",
+    "homepage": "https://github.com/161io/zf-octicons-view-helper",
     "require": {
         "php": "^7.0",
         "zendframework/zend-json": "^3.0 || ^2.6",
@@ -26,6 +27,11 @@
         "post-autoload-dump": [
             "@test"
         ],
-        "test": "phpunit --colors=always"
+        "test": "phpunit --colors=always",
+        "octicons-update": [
+            "yarn",
+            "yarn copy",
+            "@test"
+        ]
     }
 }
