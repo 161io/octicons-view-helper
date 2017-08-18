@@ -23,10 +23,10 @@ class ConfigProvider
     {
         return [
             'aliases' => [
-                'octicons' => View\Helper\Octicons::class,
+                'octicon' => View\Helper\Octicon::class,
             ],
             'factories' => [
-                View\Helper\Octicons::class => InvokableFactory::class,
+                View\Helper\Octicon::class => InvokableFactory::class,
             ],
         ];
     }
