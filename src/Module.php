@@ -8,7 +8,7 @@ namespace Io161\Octicons;
 class Module
 {
     /**
-     * @inheritDoc
+     * @return array
      */
     public function getConfig()
     {
