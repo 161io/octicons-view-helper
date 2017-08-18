@@ -1,0 +1,24 @@
+{
+    "name": "161/zf-octicons-view-helper",
+    "license": "MIT",
+    "keywords": [
+        "zf",
+        "octicons"
+    ],
+    "homepage": "https://github.com/161/octicons-view-helper",
+    "require": {
+        "php": "^7.0 || ^5.6",
+        "zendframework/zend-view": "^2.6"
+    },
+    "require-dev": {
+        "phpunit/PHPUnit": "^6.0 || ^5.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "Io161\\Octicons\\": "src/"
+        }
+    },
+    "scripts": {
+        "test": "phpunit --colors=always"
+    }
+}
