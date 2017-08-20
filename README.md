@@ -1,4 +1,7 @@
-# Use Octicons with Zend\View  [![Build Status](https://travis-ci.org/161io/zf-octicons-view-helper.svg?branch=master)](https://travis-ci.org/161io/zf-octicons-view-helper)
+# Use Octicons with Zend\View
+
+[![Build Status](https://travis-ci.org/161io/zf-octicons-view-helper.svg?branch=master)](https://travis-ci.org/161io/zf-octicons-view-helper)
+
 
 ## Usage
 
