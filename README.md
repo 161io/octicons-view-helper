@@ -1,6 +1,9 @@
 # Use Octicons with Zend\View
 
 [![Build Status](https://travis-ci.org/161io/zf-octicons-view-helper.svg?branch=master)](https://travis-ci.org/161io/zf-octicons-view-helper)
+[![Latest Version](https://img.shields.io/packagist/v/161/zf-octicons-view-helper.svg)](https://packagist.org/packages/161/zf-octicons-view-helper)
+[![License](https://img.shields.io/packagist/l/161/zf-octicons-view-helper.svg)](https://packagist.org/packages/161/zf-octicons-view-helper)
+
 
 
 ## Usage
@@ -21,7 +24,7 @@
 
 ## FAQ
 
-## Options
+### Options
 
 ```php
 $this->octicon('mark-github', 1); // icon size: 100%
@@ -33,7 +36,7 @@ $this->octicon('mark-github', [
 ```
 
 
-## Installation
+### Installation
 
 ```bash
 $ composer require 161/zf-octicons-view-helper
