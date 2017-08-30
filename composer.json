@@ -23,6 +23,11 @@
             "Io161\\Octicons\\": "src/"
         }
     },
+    "extra": {
+        "zf": {
+            "component": "Io161\\Octicons"
+        }
+    },
     "scripts": {
         "test": "phpunit --colors=always",
         "octicons-update": [
